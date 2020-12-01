@@ -21,8 +21,10 @@ section {
 }
 .header-container {
   width: 100%;
+  height: 20%;
   display: flex;
   justify-content: center;
+  /* border: 1px solid red; */
 }
 
 .header__sub-title {
@@ -62,11 +64,10 @@ section {
 .header-menu{
   width: 100%;
   height: 50px;
-  /* margin: 5px 0 5px 0; */
   border-top: 4px solid black;
   border-bottom: 4px solid black;
   display: grid;
-  grid-template-columns: 20% 50% 10% 10% 10%;
+  grid-template-columns: 21% 53% 8% 9% 9%;
   grid-template-rows: 1fr;
 }
 .header-menu--since,
@@ -84,6 +85,8 @@ section {
 }
 .header-menu--since{
   grid-column: 1/2;
+  border-left: 2px solid black;
+
 }
 .header-menu--since h5{
   font-size: 15px;
@@ -94,6 +97,7 @@ section {
   justify-content: space-evenly;
   align-items: center;
   border: none;
+  
 }
 .header-menu--antepe{
  grid-column: 3/4;
@@ -106,4 +110,23 @@ section {
 }
 .header-menu--day1 h5{
   display: block ;
+}
+main{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 1fr;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 88%;
+  border-bottom: 5px solid black;
+}
+.column-left,
+.column-rigth{
+  border-left: 4px solid black ;
+  border-right: 4px solid black;
+  margin: 15px 0 15px 0;
+}
+.column-left{
+  grid-column: 1/2;
+
 }

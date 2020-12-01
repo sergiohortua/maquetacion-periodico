@@ -183,7 +183,7 @@ main {
   top: -10px;
   left: -60px;
 }
-.column-left__af--title h1{
+.column-left__af--title h1 {
   font-size: 25px;
   font-weight: 900;
   position: relative;
@@ -192,14 +192,14 @@ main {
   top: 10px;
   right: 70px;
 }
-.column-left--advertising-first p{
+.column-left--advertising-first p {
   position: relative;
   top: -75px;
   font-size: 20px;
   text-align: center;
   margin: 0;
 }
-.column-left--advertising-first h2{
+.column-left--advertising-first h2 {
   font-size: 40px;
   text-align: center;
   margin: 0;
@@ -207,48 +207,79 @@ main {
   top: -60px;
 }
 /*publicidad 2*/
-.column-left--advertising-second{
+.column-left--advertising-second {
   margin: 15px 5px 5px 5px;
   border-top: 5px solid black;
   display: flex;
 }
-.column-left--advertising-second img{
+.column-left--advertising-second img {
   width: 200px;
   position: relative;
   top: 10px;
   left: -70px;
 }
-.column-left--advertising-second h1{
+.column-left--advertising-second h1 {
   margin: 0;
   font-size: 30px;
-  line-height:40px;
+  line-height: 40px;
   position: relative;
   left: -130px;
   top: 10px;
 }
-
-
 
 /*columna centro*/
 .column-center {
   grid-column: 2/3;
 }
 
-
-
 /*columna derecha*/
 .column-rigth {
   grid-column: 3/4;
 }
-.column-rigth1{
+.column-rigth1 {
   margin: 5px;
   border-bottom: 5px solid black;
+  text-align: center;
 }
-.column-rigth2{
+.column-rigth1 h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.column-rigth1 p {
+  font-size: 18px;
+}
+.column-rigth2 {
   margin: 5px;
   border-bottom: 5px solid black;
+  text-align: center;
 }
-.column-rigth3{
- margin: 5px;
+.column-rigth2 h1 {
+  font-size: 40px;
+  margin: 10px 0 0 0;
+}
+.column-rigth2 img {
+  width: 180px;
+  height: 160px;
+}
+.column-rigth2 p {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
 
+.column-rigth3 {
+  margin: 5px;
+  text-align: center;
+}
+.column-rigth3 h1{
+  font-size: 40px;
+  margin: 0 0 0 0 ;
+}
+.column-rigth3 p {
+  font-size: 15px;
+  text-align: left;
+  margin: 0 0 10px 0 ;
+}
+.column-rigth3 img{
+  width: 200px;
+  height: 210px;
 }

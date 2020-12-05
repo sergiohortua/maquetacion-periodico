@@ -259,18 +259,18 @@ main {
   text-align: center;
 }
 .column-center__title h2{
-  font-size: 69px;
+  font-size: 60px;
   font-weight: 900;
-  margin: 10px;
+  margin: 0px;
 }
 .column-center__title h1{
-  margin: 10px;
-  font-size: 120px;
+  margin: 0px;
+  font-size: 100px;
   font-weight: 900;
   letter-spacing: 5px;
 }
 .column-center__advertising{
-  margin: 10px;
+  margin: 0 10px 0 10px;
   text-align: center;
   border: 3px solid black;
 }
@@ -278,6 +278,46 @@ main {
   margin: 0;
   font-size: 50px;
   letter-spacing: 1px;
+}
+.column-center p{
+  margin: 15px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: 5px solid black;
+}
+.windows{
+  display:flex;
+  justify-content: space-evenly;
+  margin:20px 10px 10px 10px;
+}
+.windows img{
+  width: 150px;
+}
+.windows div{
+  text-align: center;
+}
+.windows div h2{
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 10px;
+  font-weight: 900;
+}
+.windows div h1{
+  margin: 0;
+  font-size: 57px;
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+.finish{
+  margin: 20px 10px 10px 10px;
+  border: 3px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
+.finish h1{
+  margin: 10px;
+  font-size: 45px;
 }
 /*columna derecha*/
 .column-rigth {

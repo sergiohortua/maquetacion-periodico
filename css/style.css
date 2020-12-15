@@ -368,7 +368,11 @@ main {
   width: 110px;
   height: 130px;
 }
+/*=========================media======================*/
+/*=========================media======================*/
+/*=========================media======================*/
 
+/* 
 @media screen and (max-width: 768px) {
   h5 {
     font-size: 8px;
@@ -547,7 +551,7 @@ main {
   section {
     height: 139vh;
     margin: 12px 20px 12px 20px;
-    /* border: 1px solid black; */
+    /* border: 1px solid black; 
   }
   .header__sub-title h4 {
     font-size: 5.5px;
@@ -733,7 +737,7 @@ main {
     height: 74px;
   }
 }
-
+*/
 @media screen and (max-width: 375px) {
   h5 {
     font-size: 7px;
@@ -742,7 +746,7 @@ main {
     height: 101%;
   }
   section {
-    height: 79vh;
+    height: 110vh;
     margin: 20px 20px 20px 20px;
   }
   .header__sub-title h4 {
@@ -916,4 +920,4 @@ main {
     width: 55px;
     height: 65px;
   }
-}
+} 

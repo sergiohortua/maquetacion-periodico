@@ -1,2 +1,2 @@
-# Maquetacion-News
-Maquetacion de periodico 
+# maquetacion-periodico
+Maquetación de periódico para dominio de herramientas de Html y Css
